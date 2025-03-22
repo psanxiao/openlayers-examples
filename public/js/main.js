@@ -1,2 +1,2 @@
-import 'ol/ol.css';
-import './js/map.js'; 
+import '../css/ol.css';
+import './map.js'; 

@@ -4,7 +4,8 @@
   "description": "ISS tracking application",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "cp node_modules/ol/ol.css public/css/ && vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "ol": "^8.2.0"
