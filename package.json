@@ -1,0 +1,15 @@
+{
+  "name": "iss-tracker",
+  "version": "1.0.0",
+  "description": "ISS tracking application",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "ol": "^8.2.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+} 
