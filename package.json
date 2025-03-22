@@ -4,13 +4,15 @@
   "description": "ISS tracking application",
   "scripts": {
     "dev": "vite",
-    "build": "cp node_modules/ol/ol.css public/css/ && vite build",
+    "prebuild": "npm install && mkdir -p public/css && cp node_modules/ol/ol.css public/css/",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "ol": "^8.2.0"
+    "ol": "^8.2.0",
+    "vercel": "^41.4.1"
   },
   "devDependencies": {
     "vite": "^5.0.0"
   }
-} 
+}
